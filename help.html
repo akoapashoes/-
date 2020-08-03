@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HELP CENTER</title>
+</head>
+<body>
+
+<style>
+	* {
+		box-sizing: border-box;
+	}
+
+	body {
+		margin: 30px;
+		background-color: lightblue;
+	}
+
+	.topnav a {
+		color: indigo;
+		font-size: 20px;
+	}
+
+	.topnav a:hover {
+		color: coral;
+		font-size: 80px;
+	}
+
+
+.redirect {
+	font-size: 10px;
+	color: red;
+}
+</style>
+
+<body>
+
+	<button onclick="myFunction()" style="font-size: 25px;">PLEASE CLICK ON ME!</button>
+
+<p id="demo"></p>
+
+	
+	<div class="redirect">
+		<div class="topnav">
+		<h1 style="font-family: monospace;">If you didn't see what you are looking, kindly contact us by clicking-
+		</h1> 
+			<div class="topnav">
+			<a href="contact.html">Take me to the CEO or the founder of AKOAPA SHOES</a></h1>
+	</div>
+</body>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+
+<script>
+function myFunction() {
+  var txt;
+  if (confirm("Click on the link below to direct you to the AKOAPA Founder!")) {
+    txt = "Thank you!";
+  } else {
+    txt = "No please, do not press cancell! please try again and know what the founder have to say!";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
+</body>
+
+<!-- Mirrored from www.w3schools.com/js/tryit.asp?filename=tryjs_confirm by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 02 Feb 2019 06:22:46 GMT -->
+</html>
